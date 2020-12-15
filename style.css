@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-    --border-color: #3266ce;5px0.9
+    --border-color: #3266ce;
     --fill-color: #6ab3f8;
 }
 *{
@@ -75,5 +75,31 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex:1;
+    transition: ease 0.3s;
+}
 
+.remained span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.remained small {
+    font-size: 12px;
+}
+
+.percentage {
+    background-color: var(--fill-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    height: 0;
+    transition: 0.3s ease;
+}
+
+.text {
+    text-align: center;
+    margin: 0 0 5px;
 }
